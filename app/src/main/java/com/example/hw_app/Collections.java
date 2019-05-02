@@ -16,9 +16,12 @@ public class Collections {
         ArrayList<Collections> myList = new ArrayList<Collections>();
         List<Collections> nextList = new ArrayList<Collections>();
 
+       // nextList.add(0, "c"); и так тоже можно добавление элемента по индексу
+
         //обьект типа коллекции
         Collections s = new Collections();
         Collections b = new Collections();
+
 
         Collections c = new Collections();
         Collections d = new Collections();
