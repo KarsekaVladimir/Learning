@@ -1,14 +1,15 @@
 package com.example.hw_app;
 
-public class Pudel extends Dog {
+public class Pudel extends Dog implements Inter {
 
+    Pudel obj = new Pudel();
     public Pudel(){
 
     }
 
     @Override
-    public void Test_Bark() {
-        super.Test_Bark();
+    public void test_bark() {
+        super.test_bark();
         if (size>15){
             System.out.print(">15");
         }
@@ -18,7 +19,18 @@ public class Pudel extends Dog {
         }
     }
 
-    public void Test_Bark(int s_size){
-        this.Test_Bark();
+    public void test_bark(int s_size){
+        this.test_bark();
     }
+
+    //имплементация интерфейсов
+    public void walk(){
+        obj.size = 15;
+        obj.name = 1;
+    }
+
+
+   public void sleap(){
+
+   }
 }

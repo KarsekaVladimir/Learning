@@ -25,7 +25,7 @@ public  class Dog  {
 
 
 //класс лая без параметра
-    public void Bark(){
+    public void bark(){
         if(size >60){
             System.out.print("1");
         }
@@ -49,15 +49,15 @@ public  class Dog  {
     Dog big = new Dog();
 
 //процедура для работы
-    public void Test_Bark(){
+    public void test_bark(){
         small.size = 5;
-        small.Bark();
+        small.bark();
 
         midle.size= 15;
-        midle.Bark();
+        midle.bark();
 
         big.size = 65;
-        big.Bark();
+        big.bark();
 //
         big.BarkPar(5, 6);
 

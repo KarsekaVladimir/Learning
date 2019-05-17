@@ -2,7 +2,7 @@ package com.example.hw_app;
 
 public class Mass extends Animal  {
 
-    public void Fun() {
+    public void fun() {
  //массив примитивов
         int[] mass = new int[10];
         mass[0]=10;

@@ -54,7 +54,7 @@ public class Animal {
         return ketF;
     }
 
-    public void Action() {
+    public void action() {
 
         System.out.println("sasdasd");
 
@@ -65,9 +65,10 @@ public class Animal {
         return Color;
     }
 
-    public void  setColor(String Color){
+    public void  setColor(String newColor){
 
-        this.color=color;
+        //this.color=color;
+        color=newColor;
     }
 }
 
